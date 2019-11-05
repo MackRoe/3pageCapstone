@@ -1,0 +1,8 @@
+.hero-background-img {
+  background-image: url("recipe-box.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  padding-top:200px;
+  padding-bottom:200px;
+}
