@@ -60,8 +60,8 @@
                 <button type="button" class="btn btn-info">Pancakes</button>
                 <button type="button" class="btn btn-secondary">Pancakes</button>
                 <button type="button" class="btn btn-danger">Pancakes</button>
-                <button type="button" class="btn btn-warning text-dark">...Glob...</button>
-                <button type="button" class="btn btn-success">Fire Building</button>
+                <button type="button" class="btn btn-warning text-dark">Pancakes</button>
+                <button type="button" class="btn btn-success">...Glob...</button>
             </a>
         </div>
         <div class="col-md-4 pt-5 mr-5">
@@ -75,19 +75,29 @@
                 Water is not at all viscous, or at least it shouldn't be.
                 It's very runny.
                 Aloe juice is very viscous. It's thick. Peanut butter is
-                another food that can be said to be "gloppy".
+                very viscous and is
+                another food that can be said to be "gloppy".<br>
+                <a href="#" data-toggle="tooltip" data-placement="top"
+                title="Actually a deep sea fish. Not recommended as food.">
+                <img src="glop.jpg" height="200" width="300" class="mt-2">
+                </a>
         </div>
         <div class="col-md-4 pt-5">
+            <img src="Spatula-Turner.jpg" width="300" height="200">
             <h4 class="">Flipping Spatula</h4>
             <p>This tool is most often called a spatula, which can be
                 confusing since there are other kitchen tools for different
                 uses that are also called spatulas. The flipping spatula,
-                also called a turning spatula, is made for turning food
-                over in the skillet. Gramma called it an egg-turner.
+                also called a turning spatula or a turner, is made for turning
+                food over in the skillet. Gramma called it an egg-turner.
         </div>
     </div>
 </div>
 
-
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
 </body>
 </html>
